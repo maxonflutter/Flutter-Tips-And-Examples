@@ -50,7 +50,11 @@ class _SpeechToTextWidgetState extends State<SpeechToTextWidget> {
               ? const CircularProgressIndicator()
               : _transcript != ''
                   ? Text(_transcript)
-                  : ElevatedButton(
+                  : IconButton(
+                      style: IconButton.styleFrom(
+                        backgroundColor:
+                            Theme.of(context).colorScheme.primaryContainer,
+                      ),
                       onPressed: () async {
                         const path = 'assets/audios/example_audio.mp3';
                         final audio = await rootBundle.load(path);
@@ -66,7 +70,11 @@ class _SpeechToTextWidgetState extends State<SpeechToTextWidget> {
                           _isLoading = false;
                         });
                       },
-                      child: const Text('Convert Speech to Text'),
+                      icon: Icon(
+                        Icons.mic,
+                        size: 80,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
                     ),
         ),
       ),

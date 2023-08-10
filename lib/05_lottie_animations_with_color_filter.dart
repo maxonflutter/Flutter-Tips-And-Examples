@@ -52,5 +52,3 @@ class LottieAnimationExample extends StatelessWidget {
 }
 
 // https://lottiefiles.com/animations/pizza-VnnHMy9OOV
-
-
