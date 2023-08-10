@@ -1,4 +1,4 @@
-// More animations with flutter_animate by maxonflutter
+// Popovers with the popover package by maxonflutter
 // YT: https://www.youtube.com/@MaxonFlutter/
 // Courses: https://www.atomsbox.com/learn-flutter
 

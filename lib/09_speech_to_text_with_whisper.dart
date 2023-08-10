@@ -1,3 +1,7 @@
+// Speech to Text with OpenAI's Whisper by maxonflutter
+// YT: https://www.youtube.com/@MaxonFlutter/
+// Courses: https://www.atomsbox.com/learn-flutter
+
 import 'dart:convert';
 import 'dart:io';
 
