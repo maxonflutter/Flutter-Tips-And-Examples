@@ -32,19 +32,18 @@ class LottieAnimationExample extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Lottie.asset(
-            'assets/message_bubble.json',
-            repeat: true,
-            reverse: true,
-            height: 300,
-            width: double.infinity,
-          ),
-          Lottie.network(
-            'https://lottie.host/f8860271-91c6-4b5f-aa91-7f954c590d35/EnOXnA2gtT.json',
-            repeat: true,
-            reverse: true,
-            height: 300,
-            width: double.infinity,
+          ColorFiltered(
+            colorFilter: ColorFilter.mode(
+              Theme.of(context).colorScheme.primary,
+              BlendMode.color,
+            ),
+            child: Lottie.asset(
+              'assets/message_bubble.json',
+              repeat: true,
+              reverse: true,
+              height: 300,
+              width: double.infinity,
+            ),
           ),
         ],
       ),
@@ -52,5 +51,6 @@ class LottieAnimationExample extends StatelessWidget {
   }
 }
 
-
 // https://lottiefiles.com/animations/pizza-VnnHMy9OOV
+
+

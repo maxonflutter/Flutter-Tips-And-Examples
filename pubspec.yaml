@@ -16,6 +16,7 @@ dependencies:
   http_parser: ^4.0.2
   carousel_slider: ^4.2.1
   dots_indicator: ^3.0.0
+  popover: ^0.2.8+2
 
 dev_dependencies:
   flutter_test:
@@ -23,14 +24,14 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 
-
-
-
 flutter:
   uses-material-design: true
 
   assets:
     - assets/
+    - assets/images/
+    - assets/videos/
+    - assets/audios/
   
   
   
