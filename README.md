@@ -5,7 +5,7 @@ This repository contains various Dart files, each showcasing a unique functional
 
 ### Files and Descriptions:
 
-1. **[01_debounce_and_form_validation.dart](./01_debounce_and_form_validation.dart)**: An implementation showcasing debounce techniques and form validation in Dart.  
+1. **[01_debounce_and_form_validation.dart](./lib/01_debounce_and_form_validation.dart)**: An implementation showcasing debounce techniques and form validation in Dart.  
 5. **[02_interactive_drawing_canvas.dart](./02_interactive_drawing_canvas.dart)**: A file that displays how to create an interactive drawing canvas.  
 6. **[03_bar_charts.dart](./03_bar_charts.dart)**: Demonstrates how to create of bar charts with Flutter.
 7. **[04_copy_and_paste.dart](./04_copy_and_paste.dart)**: Highlights the copying and pasting functionalities, and show different approaches on how to do that in Dart/Flutter.
