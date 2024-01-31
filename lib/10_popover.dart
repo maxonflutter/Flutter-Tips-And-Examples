@@ -1,7 +1,6 @@
 // Popovers with the popover package by maxonflutter
 // YT: https://www.youtube.com/@MaxonFlutter/
-// Courses: https://www.atomsbox.com/learn-flutter
-
+// Courses: https://www.atomsbox.com/
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:popover/popover.dart';

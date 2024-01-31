@@ -1,7 +1,6 @@
 // Animations with flutter_animatie by maxonflutter
 // YT: https://www.youtube.com/@MaxonFlutter/
-// Courses: https://www.atomsbox.com/learn-flutter
-
+// Courses: https://www.atomsbox.com/
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 

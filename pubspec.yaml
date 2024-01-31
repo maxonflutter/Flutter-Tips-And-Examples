@@ -17,6 +17,9 @@ dependencies:
   carousel_slider: ^4.2.1
   dots_indicator: ^3.0.0
   popover: ^0.2.8+2
+  url_launcher: ^6.1.12
+  signature: ^5.4.0
+  syncfusion_flutter_charts: ^24.1.41
 
 dev_dependencies:
   flutter_test:

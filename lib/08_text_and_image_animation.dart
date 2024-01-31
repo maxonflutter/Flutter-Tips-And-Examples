@@ -1,7 +1,6 @@
 // More animations with flutter_animate by maxonflutter
 // YT: https://www.youtube.com/@MaxonFlutter/
-// Courses: https://www.atomsbox.com/learn-flutter
-
+// Courses: https://www.atomsbox.com/
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';

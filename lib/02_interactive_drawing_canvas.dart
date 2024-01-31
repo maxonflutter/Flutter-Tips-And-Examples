@@ -1,7 +1,6 @@
 // Interactive Drawing Canvas by maxonflutter
 // YT: https://www.youtube.com/@MaxonFlutter/
-// Courses: https://www.atomsbox.com/learn-flutter
-
+// Courses: https://www.atomsbox.com/
 import 'package:flutter/material.dart';
 
 void main() {
